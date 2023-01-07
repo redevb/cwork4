@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Tom",
+    "age": 18,
+    "satietyLevel": 36,
+    "spiritLevel": 52,
+    "healthLevel": 30,
+    "average": 38
+  },
+  {
+    "name": "GARFIELD",
+    "age": 12,
+    "satietyLevel": 55,
+    "moodLevel": 43,
+    "healthLevel": 37,
+    "average": 45
+  },
+  {
+    "name": "NALA",
+    "age": 13,
+    "satietyLevel": 80,
+    "moodLevel": 56,
+    "healthLevel": 32,
+    "average": 56
+  },
+  {
+    "name": "LEOPOLD",
+    "age": 5,
+    "satietyLevel": 42,
+    "moodLevel": 36,
+    "healthLevel": 21,
+    "average": 33
+  },
+  {
+    "name": "LUCIFER",
+    "age": 14,
+    "satietyLevel": 79,
+    "moodLevel": 66,
+    "healthLevel": 60,
+    "average": 68
+  },
+  {
+    "name": "HIPPO_CAT",
+    "age": 14,
+    "satietyLevel": 38,
+    "moodLevel": 67,
+    "healthLevel": 40,
+    "average": 48
+  },
+  {
+    "name": "SIMBA",
+    "age": 11,
+    "satietyLevel": 34,
+    "moodLevel": 52,
+    "healthLevel": 78,
+    "average": 54
+  },
+  {
+    "name": "FELIX",
+    "age": 2,
+    "satietyLevel": 58,
+    "moodLevel": 37,
+    "healthLevel": 32,
+    "average": 42
+  },
+  {
+    "name": "BIRBA",
+    "age": 5,
+    "satietyLevel": 42,
+    "moodLevel": 36,
+    "healthLevel": 21,
+    "average": 33
+  },
+  {
+    "name": "MATROSKIN",
+    "age": 17,
+    "satietyLevel": 36,
+    "moodLevel": 42,
+    "healthLevel": 40,
+    "average": 39
+  }
+]

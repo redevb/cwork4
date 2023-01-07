@@ -1,5 +1,7 @@
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Cat {
     private static final Random RND = new Random();
@@ -83,6 +85,13 @@ public class Cat {
         } else {
             this.healthLevel = Math.min(healthLevel, 100);
         }
+    }
+
+    public static List<Cat> createCatsCats(int a) {
+        return Stream.generate(Cat::new)
+                .distinct()
+                .limit(a)
+                .collect(Collectors.toList());
     }
 
     public void countTheAverage() {
