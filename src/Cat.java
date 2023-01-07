@@ -9,11 +9,28 @@ public class Cat {
     private int spiritLevel;
     private int healthLevel;
     private static final List<String> names = List.of("LEOPOLD", "TOM", "LUCIFER", "NALA", "FELIX", "GARFIELD", "BIRBA", "HIPPO_CAT", "MATROSKIN", "SIMBA");
+    private int average;
 
 
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public Cat() {
+        this.name = names.get(RND.nextInt(names.size()));
+        this.age = RND.nextInt(1) + 19;
+        this.satietyLevel = RND.nextInt(20) + 81;
+        this.spiritLevel = RND.nextInt(20) + 81;
+        this.healthLevel = RND.nextInt(20) + 81;
+    }
+
+    public int getAverage() {
+        return average;
+    }
+
+    public void setAverage(int average) {
+        this.average = average;
     }
 
     public String getName() {
@@ -68,11 +85,8 @@ public class Cat {
         }
     }
 
-    public Cat() {
-        this.name = names.get(RND.nextInt(names.size()));
-        this.age = RND.nextInt(1) + 19;
-        this.satietyLevel = RND.nextInt(20) + 81;
-        this.spiritLevel = RND.nextInt(20) + 81;
-        this.healthLevel = RND.nextInt(20) + 81;
+    public void countTheAverage() {
+        average = (satietyLevel + spiritLevel + healthLevel) / 3;
     }
+
 }
