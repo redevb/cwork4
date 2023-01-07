@@ -28,31 +28,31 @@ public class Simulation {
 
     public static List<Cat> sortByName(List<Cat> cats) {
         return cats.stream()
-                .sorted(Comparator.comparing(Cat::getName))
+                .sorted(Comparator.comparing(Cat::getName, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
     public static List<Cat> sortByAge(List<Cat> cats) {
         return cats.stream()
-                .sorted(Comparator.comparing(Cat::getAge))
+                .sorted(Comparator.comparing(Cat::getAge, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
     public static List<Cat> sortByHealth(List<Cat> cats) {
         return cats.stream()
-                .sorted(Comparator.comparing(Cat::getHealthLevel))
+                .sorted(Comparator.comparing(Cat::getHealthLevel, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
     public static List<Cat> sortBySpirit(List<Cat> cats) {
         return cats.stream()
-                .sorted(Comparator.comparing(Cat::getSpiritLevel))
+                .sorted(Comparator.comparing(Cat::getSpiritLevel, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
     public static List<Cat> sortBySatiety(List<Cat> cats) {
         return cats.stream()
-                .sorted(Comparator.comparing(Cat::getSatietyLevel))
+                .sorted(Comparator.comparing(Cat::getSatietyLevel, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
