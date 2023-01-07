@@ -123,8 +123,8 @@ public class Cat implements Feedable, Playable, Curable {
 
     public void nextDay() {
         satietyLevel -= RND.nextInt(6) + 1;
-        spiritLevel += RND.nextInt(-3) + 4;
-        healthLevel += RND.nextInt(-3) + 4;
+        spiritLevel += RND.nextInt(4) + (-3);
+        healthLevel += RND.nextInt(4) + (-3);
         countTheAverage();
     }
 

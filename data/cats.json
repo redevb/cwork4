@@ -2,81 +2,91 @@
   {
     "name": "Tom",
     "age": 18,
-    "satietyLevel": 36,
-    "spiritLevel": 52,
-    "healthLevel": 30,
-    "average": 38
+    "satietyLevel": 16,
+    "spiritLevel": 43,
+    "healthLevel": 28,
+    "average": 29,
+    "isPerformedAction": false
   },
   {
     "name": "GARFIELD",
     "age": 12,
-    "satietyLevel": 55,
-    "moodLevel": 43,
-    "healthLevel": 37,
-    "average": 45
+    "satietyLevel": 37,
+    "spiritLevel": 78,
+    "healthLevel": 24,
+    "average": 46,
+    "isPerformedAction": false
   },
   {
     "name": "NALA",
     "age": 13,
-    "satietyLevel": 80,
-    "moodLevel": 56,
-    "healthLevel": 32,
-    "average": 56
+    "satietyLevel": 64,
+    "spiritLevel": 78,
+    "healthLevel": 19,
+    "average": 53,
+    "isPerformedAction": false
   },
   {
     "name": "LEOPOLD",
     "age": 5,
-    "satietyLevel": 42,
-    "moodLevel": 36,
-    "healthLevel": 21,
-    "average": 33
+    "satietyLevel": 23,
+    "spiritLevel": 84,
+    "healthLevel": 12,
+    "average": 39,
+    "isPerformedAction": false
   },
   {
     "name": "LUCIFER",
     "age": 14,
-    "satietyLevel": 79,
-    "moodLevel": 66,
-    "healthLevel": 60,
-    "average": 68
+    "satietyLevel": 62,
+    "spiritLevel": 74,
+    "healthLevel": 59,
+    "average": 65,
+    "isPerformedAction": false
   },
   {
     "name": "HIPPO_CAT",
     "age": 14,
-    "satietyLevel": 38,
-    "moodLevel": 67,
-    "healthLevel": 40,
-    "average": 48
+    "satietyLevel": 26,
+    "spiritLevel": 89,
+    "healthLevel": 34,
+    "average": 49,
+    "isPerformedAction": false
   },
   {
     "name": "SIMBA",
     "age": 11,
-    "satietyLevel": 34,
-    "moodLevel": 52,
-    "healthLevel": 78,
-    "average": 54
+    "satietyLevel": 14,
+    "spiritLevel": 82,
+    "healthLevel": 76,
+    "average": 57,
+    "isPerformedAction": false
   },
   {
     "name": "FELIX",
     "age": 2,
-    "satietyLevel": 58,
-    "moodLevel": 37,
-    "healthLevel": 32,
-    "average": 42
+    "satietyLevel": 48,
+    "spiritLevel": 81,
+    "healthLevel": 26,
+    "average": 51,
+    "isPerformedAction": false
   },
   {
     "name": "BIRBA",
     "age": 5,
-    "satietyLevel": 42,
-    "moodLevel": 36,
-    "healthLevel": 21,
-    "average": 33
+    "satietyLevel": 29,
+    "spiritLevel": 82,
+    "healthLevel": 16,
+    "average": 42,
+    "isPerformedAction": false
   },
   {
     "name": "MATROSKIN",
     "age": 17,
-    "satietyLevel": 36,
-    "moodLevel": 42,
-    "healthLevel": 40,
-    "average": 39
+    "satietyLevel": 26,
+    "spiritLevel": 87,
+    "healthLevel": 33,
+    "average": 48,
+    "isPerformedAction": false
   }
 ]
